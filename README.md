@@ -15,9 +15,13 @@ implementation of Gaussian Processes for Topology Inference of Directed Graphs, 
 main.ipynb: The workflow of the code.
             Contains:  Data processing, Inference, Plot(haven't done yet).
 
-dataProcessing.ipynb:  Given the graph signal from t=1 to t=T, with considered \Lambda lag, output the training input and output.
+dataProcessing.ipynb: Generate the training input and output, given the graph signal from t=1 to t=T, with considered \Lambda lag.
 
-Inference.ipynb: Given the input and output, the inference process of the graph topology.
+Inference.ipynb:  The inference process of the graph topology, given the input and output,
+
+E1_SytheticData.ipynb: Generate the first example data in the paper.
+
+E2_lorenz96.ipynb: Generate the second example data in the paper.
 
 
 
