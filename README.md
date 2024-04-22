@@ -12,4 +12,14 @@ implementation of Gaussian Processes for Topology Inference of Directed Graphs, 
   keywords={Network topology;Time series analysis;Directed graphs;Gaussian processes;Machine learning;Signal processing;Topology;topology inference;Gaussian processes;causal-ity;ARD kernel},
   doi={10.23919/EUSIPCO55093.2022.9909923}}
 
-  
+main.ipynb: The workflow of the code.
+            Contains:  Data processing, Inference, Plot(haven't done yet).
+
+dataProcessing.ipynb:  Given the graph signal from t=1 to t=T, with considered \Lambda lag, output the training input and output.
+
+Inference.ipynb: Given the input and output, the inference process of the graph topology.
+
+
+
+
+
